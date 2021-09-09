@@ -1,0 +1,482 @@
+body {
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'MuseoModerno', cursive;
+  color: #FFF338;
+  font-size: 2rem;
+  margin: 0 100px 100px;
+}
+
+h2 {
+  font-family: 'MuseoModerno', cursive;
+  color: #fff;
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: 'MuseoModerno', cursive;
+  color: #FFF338;
+  font-size: 2rem;
+  margin: 100px;
+}
+
+hr:not([size]) {
+  color: #FFF338;
+  width: 100%;
+}
+
+/* Search Bar & Download Buttons */
+* {
+  box-sizing: border-box;
+}
+
+.search-box {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+}
+
+.input-search {
+  height: 50px;
+  width: 50px;
+  border-style: none;
+  padding: 10px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  outline: none;
+  border-radius: 25px;
+  transition: all .5s ease-in-out;
+  background-color: #22a6b3;
+  padding-right: 40px;
+  color: #fff;
+}
+
+.input-search::placeholder {
+  color: rgba(255, 255, 255, .5);
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+.btn-search {
+  width: 50px;
+  height: 50px;
+  border-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  color: #ffffff;
+  background-color: transparent;
+  pointer-events: painted;
+}
+
+.btn-search:focus~.input-search {
+  width: 300px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, .5);
+  transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+.input-search:focus {
+  width: 300px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, .5);
+  transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+.apple a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.play-store a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Headings */
+.First-Heading {
+  text-align: center;
+  padding: 250px 100px 50px;
+}
+
+.Second-Heading {
+  padding: 130px 150px 150px;
+}
+
+.Third-Heading {
+  padding: 0px 200px;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #7EB5A6;
+}
+
+#press {
+  background-color: #7EB5A6;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Color parts */
+.teal-color {
+  background-color: #00A19D;
+}
+
+.green-color {
+  background-color: #7EB5A6;
+}
+
+/* Sections */
+.second-section {
+  padding: 50px;
+  background-color: #7EB5A6;
+}
+
+.container-1-fluid {
+  padding-bottom: 300px;
+}
+
+/* Pages */
+.first-page {
+  padding-bottom: 235px;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+  color: #fff;
+  background-color: #00A19D;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  position: absolute;
+  left: 100px;
+  top: 50px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.collapse {
+  position: absolute;
+  right: 100px;
+  top: 50px;
+}
+
+/* Artists */
+.artist-songs {
+  text-decoration: none;
+}
+
+.artists-style {
+  position: relative;
+  top: 35px;
+  right: 300px;
+  padding-right: 0px;
+}
+
+.artists-style-2 {
+  position: absolute;
+  right: 535px;
+  top: 2125px;
+}
+
+.lyrics-style {
+  position: relative;
+  top: 10px;
+  right: 600px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.lyrics-style-2 {
+  position: relative;
+  top: -35px;
+  left: 615px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.artist-lyrics {
+  position: absolute;
+  top: 1950px;
+  bottom: 0px;
+  right: 1300px;
+}
+
+.artist-lyrics-2 {
+  position: absolute;
+  top: 1950px;
+  bottom: 0px;
+  right: 1100px;
+}
+
+.testimonial-style {
+  top: 150px;
+  width: 250px;
+}
+
+.Polo-G, .Dj-Khaled {
+  position: relative;
+  right: 100px;
+  border-radius: 50%;
+}
+
+.Lil-Baby, .Devito {
+  position: relative;
+  right: 45px;
+  border-radius: 100%;
+  height: 250px;
+}
+
+.Drake, .Relja {
+  position: relative;
+  right: -10px;
+  border-radius: 100%;
+  height: 250px;
+}
+
+.Trends {
+  position: relative;
+  right: -65px;
+  border-radius: 100%;
+  height: 250px;
+}
+
+.Albums {
+  position: relative;
+  right: -120px;
+  border-radius: 100%;
+  height: 250px;
+}
+
+.Jala-Brat {
+  position: relative;
+  right: -65px;
+  border-radius: 100%;
+  height: 250px;
+}
+
+.Voyage {
+  position: relative;
+  right: -120px;
+  border-radius: 100%;
+  height: 250px;
+}
+
+.padding-change {
+  color: #7EB5A6;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-bottom: 0px;
+}
+
+.Polo_G {
+  padding: 30px 0px 0px;
+  height: 350px;
+}
+
+.Lil_Baby {
+  padding: 20px 0px 0px;
+}
+
+.Drake_ {
+  padding: 0px 0px 150px;
+}
+
+.Trends_ {
+  padding: 0px 0px 50px;
+}
+
+.Albums_ {
+  padding: 0px 0px 100px;
+}
+
+.social-icon {
+  padding: 0 10px 20px;
+}
+
+.final {
+  margin: 0;
+}
+
+.footer {
+  text-align: center;
+  color: #fff;
+  background-color: #7EB5A6;
+  padding: 25px 50px;
+}
+
+#To-Polo-G a {
+  color: #F6EFB4;
+  text-decoration: none;
+}
+
+#To-Lil-Baby a {
+  color: #3E00FF;
+  text-decoration: none;
+}
+
+#To-Drake a {
+  color: #082032;
+  text-decoration: none;
+}
+
+#To-Trends a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#To-Albums a {
+  color: #FCDEC0;
+  text-decoration: none;
+}
+
+#footer a {
+  color: #fff;
+}
+
+#To-Polo-G .artists-style {
+  position: relative;
+  top: 35px;
+  right: 300px;
+  padding-right: 0px;
+  color: #F6EFB4;
+}
+
+#To-Polo-G .artist-lyrics {
+  position: absolute;
+  top: 1950px;
+  bottom: 0px;
+  right: 1300px;
+}
+
+#To-Polo-G .artist-lyrics-2 {
+  position: absolute;
+  top: 1950px;
+  bottom: 0px;
+  right: 1100px;
+}
+
+#To-Lil-Baby .artists-style-2 {
+  position: absolute;
+  right: 535px;
+  top: 2125px;
+  color: #3E00FF;
+}
+
+#To-Lil-Baby .artist-lyrics-2 {
+  position: absolute;
+  top: 2195px;
+  bottom: 0px;
+  right: 750px;
+}
+
+#To-Lil-Baby .artist-lyrics-3 {
+  position: absolute;
+  top: 2195px;
+  bottom: 0px;
+  right: 500px;
+}
+
+#To-Drake .artists-style {
+  position: relative;
+  top: 35px;
+  right: 300px;
+  padding-right: 0px;
+  color: #082032;
+}
+
+#To-Drake .artist-lyrics {
+  position: absolute;
+  top: 2480px;
+  bottom: 0px;
+  right: 1270px;
+}
+
+#To-Drake .artist-lyrics-2 {
+  position: absolute;
+  top: 2480px;
+  bottom: 0px;
+  right: 1070px;
+}
+
+#To-Drake .lyrics-style {
+  position: relative;
+  top: 0px;
+  right: 600px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+#To-Trends .artists-style-2 {
+  position: absolute;
+  right: 590px;
+  top: 2735px;
+  color: #fff;
+}
+
+#To-Trends .artist-lyrics-2 {
+  position: absolute;
+  top: 2795px;
+  bottom: 0px;
+  right: 750px;
+}
+
+#To-Trends .artist-lyrics-3 {
+  position: absolute;
+  top: 2795px;
+  bottom: 0px;
+  right: 450px;
+}
+
+#To-Albums .artists-style {
+  position: relative;
+  top: 35px;
+  right: 235px;
+  padding-right: 0px;
+  color: #FCDEC0;
+}
+
+#To-Albums .artist-lyrics {
+  position: absolute;
+  top: 3120px;
+  bottom: 0px;
+  right: 1220px;
+}
+
+#To-Albums .artist-lyrics-2 {
+  position: absolute;
+  top: 3120px;
+  bottom: 0px;
+  right: 870px;
+}
